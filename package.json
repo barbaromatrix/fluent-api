@@ -1,0 +1,19 @@
+{
+  "name": "fluent-api",
+  "version": "1.0.0",
+  "description": "A simple study about Fluent API, developing a calculator",
+  "main": "index.js",
+  "author": "Matheus Galdino <matheus.galdino@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!**/node_modules/**"
+    ]
+  }
+}
